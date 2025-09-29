@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/background.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.top_bar {
+    background-color: #343a40;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.social_icons i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.social_icons i:hover {
+    color: #2dbf23c7;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+.carousel-caption {
+    text-align: center;
+    position: relative; /* Override absolute positioning */
+    top: auto;
+    bottom: auto;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-text p {
+    white-space: pre-wrap;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
